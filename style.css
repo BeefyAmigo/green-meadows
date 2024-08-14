@@ -1,6 +1,8 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
@@ -10,7 +12,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 100px 0 100px;
+    padding: 0 80px 0 80px;
 }
 
 .body {
@@ -28,14 +30,60 @@ body {
 .info {
     display:flex;
     flex-direction: column;
+    padding-top: 40px;
+    padding-right: 120px;
+    padding-bottom: 40px;
+    padding-left: 120px;
+    gap: 40px;
 }
+
+.image {
+    flex: 1 1 0px;
+    background-color: grey;
+ }
 
 .images {
     display:flex;
+    gap: 15px;
 }
 
 .image-one {
     text-align: center;
+}
+
+.outline {
+    outline: 2px solid blue;
+}
+
+.quote {
+    display:flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-right: 120px;
+    padding-bottom: 40px;
+    padding-left: 120px;
+    background-color: #E5E7EB;
+
+}
+
+.sign-up {
+    display:flex;
+    margin: 40px 80px 40px 80px;
+    justify-content: center;
+    background-color: #3882F6;
+    gap: 220px;
+}
+
+.description,
+#button {
+    margin: 20px;
+}
+
+
+#quoter {
+    align-self: flex-end;
+    font-weight: 700;
+    font-size: 12px;
 }
 
 #main {
@@ -49,8 +97,10 @@ body {
     font-size: 18px;
 }
 
-.image {
-   flex: 1 1 0px;
+#info {
+    text-align: center;
+    font-weight: 800;
+    font-size: 28px;
 }
 
 img {
