@@ -6,7 +6,7 @@ body {
 }
 
 .header {
-    background-color: #1F2937;
+    background-color: #9db668;
     font-size: 24px;
     color: #F9FAF8;
     display: flex;
@@ -16,7 +16,7 @@ body {
 }
 
 .body {
-    background-color: #1F2937;
+    background-color: #9db668;
     display: flex;
     justify-content: center;
     padding: 80px;
@@ -25,11 +25,23 @@ body {
 .container {
     flex: 1 1 0px;
     width: 0;
+    gap: 10px;
+}
+
+.container button {
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid grey;
+    margin-top: 10px;
+    padding: 5px 20px 5px 20px;
+
 }
 
 .info {
     display:flex;
     flex-direction: column;
+    background-color: white;
     padding-top: 40px;
     padding-right: 120px;
     padding-bottom: 40px;
@@ -39,7 +51,6 @@ body {
 
 .image {
     flex: 1 1 0px;
-    background-color: grey;
  }
 
 .images {
@@ -49,13 +60,20 @@ body {
 
 .image-one {
     text-align: center;
+    flex: 1 1 0px;
+    font-size: 18px;
 }
 
-.outline {
-    outline: 2px solid blue;
+.outline img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    outline: 3px solid #3882F6;
+    border-radius: 5px;
 }
 
 .quote {
+    font-size: 28px;
     display:flex;
     flex-direction: column;
     padding-top: 40px;
@@ -70,8 +88,17 @@ body {
     display:flex;
     margin: 40px 80px 40px 80px;
     justify-content: center;
-    background-color: #3882F6;
+    background-color: grey;
     gap: 220px;
+    color: white;
+    border-radius: 5px;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: #9db668;
 }
 
 .description,
@@ -79,11 +106,24 @@ body {
     margin: 20px;
 }
 
+#button {
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 
 #quoter {
     align-self: flex-end;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 28px;
+    padding-right: 150px;
 }
 
 #main {
